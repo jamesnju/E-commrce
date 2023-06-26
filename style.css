@@ -1,0 +1,106 @@
+* {
+   padding: 0; 
+   margin: 0;
+   box-sizing: border-box;
+   
+
+}
+html{
+    font-size: medium;
+
+}
+header {
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0;
+    height: 60px;
+    background-color: lightslategrey;
+    width: 100%;
+    position: fixed;
+    font-weight: bold;
+    opacity: none;
+    
+}
+.logo{
+    
+    height: 100%;
+    width: 5%;
+    object-position: center;
+    object-fit: cover;
+    margin: 4px;
+    padding: 10px;
+    
+    justify-content: center;
+    
+}
+header a{
+    font-size: 1.5rem;
+    color: whitesmoke;
+}
+header a:hover{
+    color: red;
+}
+#main{
+    margin: 10px;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    letter-spacing: 2px;
+    text-shadow: 2px;
+    word-spacing: 2px;
+}
+
+#logout{
+    display: flex;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    border: 3px solid red;
+    border-radius: 80%;
+    align-items: center;
+    background-color: blue;
+    margin: 2px 3px 5px 4px;
+    padding: 4px;
+    height: 100%;
+    width: 5%;
+    object-fit: cover;    
+    font-weight: 100;
+    list-style: circle;
+}
+#cart{
+    display: flex;
+    justify-content:flex-end;
+    background-color: yellow;
+    margin: 2px;
+    padding: 1px;
+    width: 6%;
+    align-items: center;
+    height: 100%;
+    border: 3px solid red;
+    border-radius: 80%;
+    object-fit: cover;
+    
+    
+}
+#badge{
+    justify-content: space-between;
+    gap: 5px;
+    background-color: aqua;
+    position: relative;
+}
+@media (max-width: 600px){
+    body{
+      margin: auto;
+      padding: auto;
+      background-color: blueviolet;
+    }
+    header{
+      background-color: aqua;
+      margin: auto;
+      padding: auto;
+      color: red;
+    }
+  
+  }
